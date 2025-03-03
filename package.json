@@ -1,0 +1,22 @@
+{
+  "name": "api-to-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theleo013/api-to-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Theleo013/api-to-vercel/issues"
+  },
+  "homepage": "https://github.com/Theleo013/api-to-vercel#readme"
+}
