@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Theleo013/api-to-vercel/issues"
   },
-  "homepage": "https://github.com/Theleo013/api-to-vercel#readme"
+  "homepage": "https://github.com/Theleo013/api-to-vercel#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "serverless-http": "^3.0.0"
+  }
 }
