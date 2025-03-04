@@ -1,20 +1,10 @@
-const serverless = require("serverless-http");
 const jsonServer = require("json-server");
-const path = require("path");
-
 const server = jsonServer.create();
-
-const router = jsonServer.router(path.join(__dirname, "db.json"));
+const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
-server.use(jsonServer.bodyParser);
-
-server.use(
-  jsonServer.rewriter({
-    "/api/*": "/$1",
-  })
-);
+server.use(middlewares);
 
 server.use(router);
 
-module.exports.handler = serverless(server);
+module.exports = server;
